@@ -1,0 +1,18 @@
+250410
+
+Dec2Bin
+Base n = 0, 1 --> return n
+Recursive q <- n/2, r <- n%2
+return (D2B(q) + r)
+
+palindrome
+하나거나 없거나가 가장 기본적인 회문
+
+central substring
+redivider 같은 케이스 
+v를 따져줘야함
+
+recursive 간단하게 짤 수 있지만 효율성이 떨어짐
+
+피보나치를 구하기 위해 이미 구한 값또한 또 구해야함
+

@@ -1,0 +1,79 @@
+250415
+
+Root strating point of tree
+
+directed path only one path
+no cycle
+중간에 뛰어 넘을 수도 없음
+
+루트가 어디든 방향만 올바르면 됨
+
+branches == directed edges
+
+방향이 존재
+
+child 는 하나의 parent 를 가짐
+
+nodes with out children --> leaves
+
+nodes with children --> internal nodes
+
+subtree
+
+height of tree 가장 먼 잎과 뿌리의 거리 --> single value
+
+level --> 부모 노드의 노드 번호 개수? 부모 노드가 몇개 있는지??
+vs
+height --> 길이
+
+base case tree
+single node
+
+max --> highest value --> height 의 정의
+
+재귀함수로 트리 표현하기
+
+n(t) = n(sub tree1(t)) + n (sub tree 2(t)) + ....
+	+1 if t is leaeves (x)\
+
+n(t) = 0, there is no next node
+	1+ n(subtree1(t)) + n (sub tree 2(t)) + ....
+
+leaves(t) = 1, single node in tree
+		leaves(subtree1(t) + leaves(subtree2(t))
+
+perfect binary tree --> 모든 노드 두개씩 존재
+complete binary tree --> 마지막 빼고 모두 구개씩 존재
+왼쪽부터 꽉 채워져야함
+		0
+		/|
+	       0  0
+             /  |       |
+            0   0     0       (X)
+
+		0
+		/|
+	       0  0
+             /  |   /
+            0   0 0       (O)
+
+
+Can you think of a non-full tree whose height is linear in n(t)?
+tree which is linked list
+
+tree 는 인덱스가 존재 X
+
+trace outline
+
+pre order traversal
+Base is empty
+time complexity O(3n) -- > O(n)
+
+in
+post
+
+binary에서만 사용가능
+
+level order traversal 도 많이 사용하긴함
+
+binary search tree

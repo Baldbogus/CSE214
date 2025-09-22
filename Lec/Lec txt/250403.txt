@@ -1,0 +1,47 @@
+250403
+
+queue 처음 front
+
+head - peeking - reading - dequeuing - 언제나 front
+
+tail - writing
+
+wrap-around queue
+
+enqueue --> tail이동
+dequeue --> head 이동
+
+array크기가 넘어서면 다시 첨으로 가서 다시 이용 --> tail 인덱스가 마지막이면  0 으로 돌아감
+
+size와 capacity 비교하여 얼마나 찼는지 인지 가능
+
+사이즈 증가 시킬때 제대로 다시 정렬시켜줘야 한다.
+
+23페이지 자바의 큐 코드 아님
+
+enqueue p24 마지막 세줄이 enqueue
+
+head >0 이면 헤드 위의 자리에 값이 들어갔을수도
+
+--> Time complexity
+simple operations
+array copy - O(n)
+new array - > o(n)
+
+if head > 0
+--> amortised o(1)
+
+front == peek 
+
+p26 size --  --> size
+이후에 size --
+
+infix 일반 계산식
+postfix 연산자가 피연산자 뒤에 나옴
+
+--> *,/가 +,-보다 상위 연산자임 먼저 나옴
+
+ahb/r*+c-
+
+--> 
+

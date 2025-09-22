@@ -1,0 +1,31 @@
+250407
+
+Sorting 
+
+Bubble Sort
+
+다음 숫자와 계속 교환 
+Time complexity: O(n^2), for loop O(n), n is length of a, do-while loop, O(n)
+Best time complexity: O(n) 정렬되었는지 확인이 필요
+
+Heapsort
+1. 힙을 생성 한후 힙을 채워 넣는다. O(n log n) --> log 1+ log 2 + log 3 ... == n log n
+2. remove min 을 하면서 프린트 한다. (perculateDown()이용) (while --> O(n) number of node, removeMin() --> O(log n))
+
+total time complexity --> O(n log n)
+
+원래 순서가 어떻든 크게 중요하지 않음
+힙으로 만들기는 언제든 n logn 이 걸리기 때문에
+
+Merge sort
+1. 처음에 두개씩 계속 나눈다.
+2. 합치면서 정렬
+3. 완성!
+
+n <= 7 일때 insertion sort 가 효율적임
+
+Merging 
+case 1: 절대적으로 차이가 있을때 --> 자바는 모든 배열을 다시 복사해야하기 때문에 O(n)
+case 2: crossover through both lists 해야 할떄 O(n + n) = O(n)
+
+src: 소스 배열 --> dest: 정렬해서 만드는 배열

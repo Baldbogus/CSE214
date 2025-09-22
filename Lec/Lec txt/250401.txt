@@ -1,0 +1,54 @@
+25/04/01
+
+Stack
+
+input foo -> bar -> foobar
+output foobar -> bar -> foo
+
+중간꺼를 꺼내는건 불가능
+안에를 보고 싶으면 위에꺼부터 꺼내야함
+
+Push, pop, peek
+
+Push 위에 쌓기
+
+arraylist - remove index 이용
+pop - 맨위에 있는 데이터 나옴
+빈 공간에서 데이터를 꺼내면 exception 도출 
+
+Vector 비슷 arraylist
+
+add 사용하지 않기 -- vector의 기능임 -- stack이아니기 때문
+
+last --> top
+
+push -> 
+pop -> constant
+
+peek 
+constant
+
+arraycopy --> linear
+pop 안에 array copy
+
+pop은 constant
+arraycopy는 linear
+
+
+Queue
+
+줄서있는것
+
+enqueue
+
+dequeue
+exception - > empty
+
+Peek
+
+linkedlist treated as queue
+
+
+poll, element, offer, -->  null 이 발생하지 않는 경우에 사용됨 cpu, empty 상황이 발생하지 않음
+
+

@@ -1,0 +1,12 @@
+250408
+Combine current n with recursive fn (simplercase of n)
+
+iteration vs recursion
+equivalint logically 
+contrast 
+
+growing input
+recursive --> reduce input
+move towards first case, but it doesnt --> moving away from base case
+index 하나하나를 거쳐야 하는과정이면 iteration
+그냥 결론을 원하는거면 recursion
